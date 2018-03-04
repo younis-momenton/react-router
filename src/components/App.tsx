@@ -11,9 +11,12 @@ export default class App extends React.Component {
         return(
             <div>
                 <nav>
+                    <Link to="/">Home</Link>
+                    <br />
                     <Link to="/dashboard">Dashboard</Link>
                 </nav>
                 <div>
+                    <Route path="/"/>
                     <Route path="/Dashboard" component={Menu}/>
                 </div>
             </div>

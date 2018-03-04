@@ -17,7 +17,7 @@ export default class Menu extends React.Component<MenuProps, {}> {
               <nav>
                   <Link to={this.props.match.url + '/sub-menu1'}>Sub Menu 1</Link>
                   <br />
-                  <Link to={this.props.match.url + '/sub-menu2'}>Sub Menu 1</Link>
+                  <Link to={this.props.match.url + '/sub-menu2'}>Sub Menu 2</Link>
               </nav>
               <Route
                   path={this.props.match.url + '/sub-menu1'}
